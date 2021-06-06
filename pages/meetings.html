@@ -1,35 +1,83 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
-<head>
-  <title>guidelines</title>
-   	<link rel="stylesheet" href="../styles/mystyles.css" type="text/css">
-</head>
+  <head>
+    <title>The Digital Dilemma | Meeting Minutes</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
-	<li><a href="../index.html">Home</a>
-   	<li><a href="https://www.dropbox.com/sh/mjyajw349thbj61/AAAAGNBVWF_0VHEPafZjLaHPa/00%20Videos%20of%20Lectures%20S1%202020?dl=0&subfolder_nav_tracking=1">Meeting Minutes</a>
-	<li><a href="process.html">Process Support</a>
-	</ul>
+  <body>
+    <!-- Side Navbar -->
+    <div class="sidenav">
+      <a href="/index.html" style="font-size: 50px;">1604</a>
+      <a href="/index.html">Home</a>
+      <a href="/pages/topic.html">Topic</a>
+      <a href="/pages/opportunities.html">Opportunities</a>
+      <a href="/pages/risks.html">Risks</a>
+      <a href="/pages/choices.html">Choices</a>
+      <a href="/pages/ethics.html">Ethical<br>Reflections</a>
+      <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+        <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+        <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+        <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+        <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+        <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+        <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+        <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+      </div>
+      <a href="/pages/references.html">References</a>
+      <!-- Navbar script -->
+      <script>
+        var dropdown = document.getElementsByClassName("submenu");
+        var dropdownContent;
+        
+        for (var i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("mouseover", function() {
+            this.classList.toggle("active");
+            dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
 
+    <!-- Main content -->
+    <h1 style="text-align: center;">Project Process Support</h1>
+    <h2 style="text-align: center;">Meeting Minutes</h2>
 
+	<h4 style="font-weight: normal;"><p><b>Team name:</b> 1604</p></h4>
 
+    <h4 style="font-weight: normal;"><p><b>Coordinator/Leader:</b> Shawn Hiew</p></h4>
 
-<h1>Meeting Minutes</h1><br>
+	<hr />
 
-<h4>Due Date:  04/06/2021  midnight </h4><p><em>(Team coordinator to email Team Name and Site link to your TA)</em></p> 
+    <h4>Meeting Organisation</h4>
+	<p>We decided to use Instagram as the means of discussing our topic, as one of us didn't use Discord. Other than Instagram, we used every lab tutorial as a meeting session for what the next steps in our project was.</p>
 
-<h4><p>Team name ____________________________________________________</p></h4>
+	<table style="font-size: 20px; margin-left: auto; margin-right: auto; text-align: center;">
+		<tr>
+			<td><img src="/images/mm-0.PNG" style="width: 200px;"></td>
+			<td><img src="/images/mm-1.PNG" style="width: 200px;"></td>
+			<td><img src="/images/mm-2.PNG" style="width: 200px;"></td>
+			<td><img src="/images/mm-3.PNG" style="width: 200px;"></td>
+		</tr>
+	</table>
 
-<h4><p>Team Coordinator/Leader ______________________________________</p></h4>
-		
+	<h4>Meeting (17/05/2021 - Out-of-Class)</h4>
+	<p>Today, we decided to actually meet outside of class to discuss a couple things for our final project: while the researchers had already done some of the research, we needed more sources to get information from so that our conclusions</p>
 
-  <a href="https://teams.microsoft.com/l/channel/19%3a27f2d1a5f562424bb967cac271b88c1e%40thread.tacv2/General?groupId=8f7b11f2-0954-417c-b54d-937ed1e585e2&tenantId=5e022ca1-5c04-4f87-8db7-d588726274e3">Meeting Minutes Repository Alternative Link</a>      
+	<a style="text-decoration: none;" href="/pages/process.html">&#129144; Back to Project Process Support Home</a>
 
-  
-
-<hr/>
-<p><h6><em>Note: the preferred option will be to replace these links in your site with equivalent links to your repository e.g. teams or dropbox </h6></em></p>
-</body>
+	<br><br>
+    
+    <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+  </body>
 </html>

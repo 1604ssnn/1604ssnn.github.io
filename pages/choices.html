@@ -1,46 +1,73 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
+
 <head>
-  <title>choices</title>
-  	<link rel="stylesheet" href="../styles/mystyles.css">
-  </head>
+  <title>The Digital Dilemma | Choices</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
 
 <body>
-<!-- <img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing" -->
-<!-- Site navigation menu -->
+  <!-- Side Navbar -->
+  <div class="sidenav">
+    <a href="/index.html" style="font-size: 50px;">1604</a>
+    <a href="/index.html">Home</a>
+    <a href="/pages/topic.html">Topic</a>
+    <a href="/pages/opportunities.html">Opportunities</a>
+    <a href="/pages/risks.html">Risks</a>
+    <a href="/pages/choices.html">Choices</a>
+    <a href="/pages/ethics.html">Ethical<br>Reflections</a>
 
-<ul class="navbar">
-  <li><a href="../index.html">Home page</a>
-  <li><a href="topic.html">Technology/Topic</a>
-	<li><a href="opportunities.html">Opportunities</a>
-	<li><a href="risks.html">Risks</a>
-	<li><a href="choices.html">Choices</a>
-	<li><a href="ethics.html">Ethical Reflections</a>
-	<li><a href="references.html">References</a>
-   <li><a href="process.html">Process Support</a>
-</ul>
+    <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+      <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+      <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+      <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+      <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+      <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+      <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+      <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+      <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+    </div>
+    <a href="/pages/references.html">References</a>
+    
+    <!-- Navbar script -->
+    <script>
+      var dropdown = document.getElementsByClassName("submenu");
+      var dropdownContent;
 
-<!-- Main content -->
-<h1>Technology Choices</h1>
+      for (var i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("mouseover", function() {
+          this.classList.toggle("active");
+          dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </div>
 
+  <!-- Main content -->
+  <h1 style="text-align: center;">Choices</h1>
+  <h2 style="text-align: center;">The choices of Government Surveillance</h2>
 
-</ul><h4><p>Should we adopt this technology<br>
-  Should this technology be applied to other fields<br>
-  Should we look for alternative technologies<br><br><br></p>
+  <p>Sometime in the near future, government surveillance could become a big problem. If we look at China, their social credit score is said in an article to be "a set of databases and initiatives that monitor and assess the trustworthiness of individuals, companies and government entities" (A. Lee, 2020). When listening to the reviews the fellow citizens gave they seemed very pleased with the system saying that it drove them to be better citizens. What you do not hear, is that disobeying these rules could result in them losing access to their bank accounts or even losing standard rights such as voting.
+  </p>
+
+  <p>On the flip side, government surveillance can be considered useful when applying this to other fields. However big changes need to occur, which needs to start with the relationship between the government and us as the public. Over these past few decades, the public have slowly begun to move away from being partners to the government but rather subject to them. The public are starting to have less say about topics that could potentially change the circumstances we live in. In Joe Rogan's podcast featuring Edward Snowden (one of the whistleblowers that exposed PRISM and Five-Eyes) he brought up a very important point saying "there is a clear overclassification problem within these corporations" (J. Rogan, 2019). In order for government surveillance to be able to operate in today's society this needs to change drastically and us as the public need to have a better idea of everything going on behind closed doors rather than being left in the dark.</p>
   
-  
-<p> As someone who is very skeptical about my private information, being onboard with adopting this surveillance system would be a big NO for me. At this current stage I believe that government surveillance wouldn't affect the everyday person simply because of the fact a government agency like the NSA or CIA couldn't care less about what me or you get upto at 2am at night when everyone else in the house is asleep. However further down the line sometime in the near future I can see this being a big problem I mean let's take a look at China for an example, if you haven't heard already they are incorporating a social credit score system into their society with one article saying "It is a set of databases and initiatives that monitor and assess the trustworthiness of individuals, companies and government entities". When listening to the reviews the fellow citizens gave they seemed very pleased with the system with one saying "It motivates me to be a better civilian" however would you be surprised to hear that if someone happened to not obey these rules then actions would be taken which could result in them getting cut off to their bank accounts as well as losing standard rights such as voting.</p>
-<p>Although the majority of my opinions have been very negative towards government surveillance I feel that it can still be considered useful when applying this to other fields as well as the fields it is already covering. However big change needs to occur and that needs to start with the relationship between the government and us as the public. Over these past few decades us as the public have slowly begun to move away from being partners to the government but ultimately subject to them, we are getting less say about topics that could potentially change the circumstances we live in. In Joe Rogan's podcast featuring Edward Snowden he brought up a very important point saying "there is a clear overclassification problem within these corporations". In order for government surveillance to be able to operate in today's society this needs to change drastically and us as the public need to have a better idea of everything going on behind closed doors because at this very moment in time we are being left in the dark.  </p>  
-<p>Government surveillance doesn't have to be the only solution to the problem we didn't know we had. Initially I struggled to think of an alternative  that would relieve the public of the fear they had of the unknown, Then it hit me "fear" What if instead of changing the way the government surveyed the public we instead took away the fear nested in each individual making us no longer need surveillance in the first place. When listening to another Joe Rogan podcast he introduced a very powerful idea saying "So many people believe that twitter, instagram, Cnn, Fox news, wall street journal or New York times is an accurate metric of what's happening on the planet". There has been a lot of speculation surfacing over these past few years about how reliable these news sources are and the fact that they may not be uncovering the complete truth. I mean have a think about it, how easily would it be for these so called sources of information to slowly integrate agendas into the public, these sources could determine how we feel about the world by purposely causing us to feel certain emotions ultimately changing our perspective on our planet.  In my research I talked about how government surveillance really started to come to light when the horrific event of 9/11 occured. However in order for there to be minimal questions asked the public had to be on board with everything taking place but how could this be done. Well it's easy, simply push the idea through these so called news sources that we need to be afraid of a similar event like this happening again and that a surveillance system being introduced would be the best way to resolve the problem. Before we know it the government has information about every single individual at their disposal and us as the public have been on board with it without us realising. 
+  <p>Government surveillance cannot be the only solution to problems we do not know of yet. Fear of the unknown is the main reason why the public turns to the government for help. If instead of changing the way the government surveilled the public we instead took away the fear nested in each individual, we would no longer need such extensive mass surveillance in the first place. </p>
 
-</p> 
-</h4>
+  <p>On another podcast, Joe Rogan introduced a very powerful idea saying "So many people believe that twitter, instagram, Cnn, Fox news, wall street journal or New York times is an accurate metric of what's happening on the planet" (J. Rogan, 2019). There has been a lot of speculation surfacing over these past few years about how reliable these news sources are and the fact that they may not be uncovering the complete truth. It is very easy for mainstream sources of information to slowly integrate agendas into the public, that they  determine how we feel about the world, causing us to feel certain emotions. Government surveillance started to come to light when the horrific event of 9/11 occured. However in order for there to be minimal questions asked the public had to be on board with everything taking place but how could this be done. Well it's easy, simply push the idea through these so-called news sources that we need to be afraid of a similar event like this happening again and that a surveillance system being introduced would be the best way to resolve the problem. Before we know it the government has information about every single individual at their disposal and us as the public have been on board with it without us even realising.</p>
 
+  <a href="/pages/references.html" style="text-decoration: none;">[References]</a><br><br>
 
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 20 May 2021<br>
-  by Shawn Hiew.</address>
- 
-<!-- <p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em> -->
-<!-- <p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em  -->
- </html>
+  <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+</body>
+
+</html>

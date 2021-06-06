@@ -1,43 +1,121 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
+
 <head>
-  <title>references</title>
-  	<link rel="stylesheet" href="../styles/mystyles.css">
-  </head>
+  <title>The Digital Dilemma | References</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
 
 <body>
-<!-- Site navigation menu -->
+  <!-- Side Navbar -->
+  <div class="sidenav">
+    <a href="/index.html" style="font-size: 50px;">1604</a>
+    <a href="/index.html">Home</a>
+    <a href="/pages/topic.html">Topic</a>
+    <a href="/pages/opportunities.html">Opportunities</a>
+    <a href="/pages/risks.html">Risks</a>
+    <a href="/pages/choices.html">Choices</a>
+    <a href="/pages/ethics.html">Ethical<br>Reflections</a>
 
-<ul class="navbar">
-  <li><a href="../index.html">Home page</a>
-  <li><a href="topic.html">Technology/Topic</a>
-	<li><a href="opportunities.html">Opportunities</a>
-	<li><a href="risks.html">Risks</a>
-	<li><a href="choices.html">Choices</a>
-	<li><a href="ethics.html">Ethical Reflections</a>
-	<li><a href="references.html">References</a>
-   <li><a href="process.html">Process Support</a>
-</ul>
+    <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+      <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+      <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+      <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+      <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+      <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+      <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+      <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+      <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+    </div>
+    <a href="/pages/references.html">References</a>
+    
+    <!-- Navbar script -->
+    <script>
+      var dropdown = document.getElementsByClassName("submenu");
+      var dropdownContent;
 
-<!-- Main content -->
-<h1>References</h1>
+      for (var i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("mouseover", function() {
+          this.classList.toggle("active");
+          dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </div>
+
+  <!-- Main content -->
+  <h1 style="text-align: center;">References</h1>
+  <h2 style="text-align: center;">Resources used in this project</h2>
+
+  <h4><p>Snowden, E. (2019, October 5). 1368-Edward Snowden (J. Rogan, Interviewer) [Review of 1368-Edward Snowden].
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://open.spotify.com/episode/7MaJD5vZsNSNrKQVEk5gbD?si=a417f046694f4fee">https://open.spotify.com/episode/7MaJD5vZsNSNrKQVEk5gbD?si=a417f046694f4fee</a></p></h4>
+
+  <h4><p>Gandy (1989, p. 62)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145">https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145</a></p></h4>
+
+  <h4><p>(Haggerty & Gazso, 2005)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0160"> https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0160</a></p></h4>
+
+  <h4><p>"Surveillance of Public Space: CCTV, Street Lighting and Crime Prevention" Kate Painter, Nick Tilley (1999)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.ncjrs.gov/app/abstractdb/AbstractDBDetails.aspx?id=181923">https://www.ncjrs.gov/app/abstractdb/AbstractDBDetails.aspx?id=181923</a></p></h4>
+
+  <h4><p>"Routledge Handbook of Surveillance Studies" David Lyon, Kirstie Ball, Kevin D. Haggerty (2012)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://books.google.co.nz/books?hl=en&lr=&id=GHO493HCDXQC&oi=fnd&pg=PA285&dq=government+surveillance+and+preventing+terrorism&ots=G2f_14T0ZM&sig=5dvOUzEnoJVAx6vS-6UqjXG84lQ&redir_esc=y#v=onepage&q=government%20surveillance%20and%20preventing%20terrorism&f=false"> https://books.google.co.nz/books?hl=en&lr=&id=GHO493HCDXQC&oi=fnd&pg=PA285&dq=government+surveillance+and+preventing+terrorism&ots=G2f_14T0ZM&sig=5dvOUzEnoJVAx6vS-6UqjXG84lQ&redir_esc=y#v=onepage&q=government%20surveillance%20and%20preventing%20terrorism&f=false</a></p></h4>
+
+  <h4><p>Lee, A. (2020, August 9). What is China's social credit system and why is it controversial? South China Morning Post.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.scmp.com/economy/china-economy/article/3096090/what-chinas-social-credit-system-and-why-it-controversial">https://www.scmp.com/economy/china-economy/article/3096090/what-chinas-social-credit-system-and-why-it-controversial</a></p></h4>
+
+  <h4><p>#1444 - Duncan Trussell. (n.d.). Open.spotify.com. Retrieved May 27, 2021
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145"> https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145</a></p></h4>
+
+  <h4><p>"Surveillance of Public Space: CCTV, Street Lighting and Crime Prevention" Kate Painter, Nick Tilley (1999)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= " https://open.spotify.com/episode/5e3835EgjWPQqw14l6WKNM?si=BlA8rUYdSbartzG_238zlQ"> https://open.spotify.com/episode/5e3835EgjWPQqw14l6WKNM?si=BlA8rUYdSbartzG_238zlQ</a></p></h4>
+
+  <h4><p>WikiLeaks - The Hackingteam Archives. (n.d.). Wikileaks.org.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://wikileaks.org/hackingteam/emails/emailid/66718">https://wikileaks.org/hackingteam/emails/emailid/66718</a>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://wikileaks.org/hackingteam/emails/emailid/224710">https://wikileaks.org/hackingteam/emails/emailid/224710</a>
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://wikileaks.org/hackingteam/emails/emailid/224564">https://wikileaks.org/hackingteam/emails/emailid/224564</a></p></h4>
+
+  <h4><p>U.S. National Security Agency (NSA). (n.d.). NSA PRISM Powerpoint Slides. Internet Archive. 
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://archive.org/details/NSA-PRISM-Slides">https://archive.org/details/NSA-PRISM-Slides</a></p></h4>
 
 
-</ul><h4><p>Snowden, E. (2019, October 5). 1368-Edward Snowden (J. Rogan, Interviewer) [Review of 1368-Edward Snowden]. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://open.spotify.com/episode/7MaJD5vZsNSNrKQVEk5gbD?si=a417f046694f4fee">https://open.spotify.com/episode/7MaJD5vZsNSNrKQVEk5gbD?si=a417f046694f4fee</a><p></h4>
-<p>Gandy (1989, p. 62)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "  https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145
-  ">  https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145</a></p>
-<p>(Haggerty & Gazso, 2005)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0160">https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0160</a></p>
-<p>"Surveillance of Public Space: CCTV, Street Lighting and Crime Prevention"  Kate Painter, Nick Tilley (1999) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://www.ncjrs.gov/app/abstractdb/AbstractDBDetails.aspx?id=181923">https://www.ncjrs.gov/app/abstractdb/AbstractDBDetails.aspx?id=181923</a></p>
-<p>"Routledge Handbook of Surveillance Studies"  David Lyon, Kirstie Ball, Kevin D. Haggerty (2012) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://books.google.co.nz/books?hl=en&lr=&id=GHO493HCDXQC&oi=fnd&pg=PA285&dq=government+surveillance+and+preventing+terrorism&ots=G2f_14T0ZM&sig=5dvOUzEnoJVAx6vS-6UqjXG84lQ&redir_esc=y#v=onepage&q=government%20surveillance%20and%20preventing%20terrorism&f=false">https://books.google.co.nz/books?hl=en&lr=&id=GHO493HCDXQC&oi=fnd&pg=PA285&dq=government+surveillance+and+preventing+terrorism&ots=G2f_14T0ZM&sig=5dvOUzEnoJVAx6vS-6UqjXG84lQ&redir_esc=y#v=onepage&q=government%20surveillance%20and%20preventing%20terrorism&f=false</a></p>
-<p>Lee, A. (2020, August 9). What is China's social credit system and why is it controversial? South China Morning Post. <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://www.scmp.com/economy/china-economy/article/3096090/what-chinas-social-credit-system-and-why-it-controversial">https://www.scmp.com/economy/china-economy/article/3096090/what-chinas-social-credit-system-and-why-it-controversial</a></p>
-<p>#1444 - Duncan Trussell. (n.d.). Open.spotify.com. Retrieved May 27, 2021<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "  https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145
-  ">  https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0145</a></p>
-<p>(Haggerty & Gazso, 2005)<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0160">https://www.sciencedirect.com/science/article/abs/pii/S0740624X15000246?casa_token=OwTiS4Z-stAAAAAA:oFkFflCi2s3aMyJNrKerkIUj1V0T5-rFqp-2QaYUhdS8ip_OCh2LvhKI2CGNA2qF-3rEPTtN1YI#bb0160</a></p>
-<p>"Surveillance of Public Space: CCTV, Street Lighting and Crime Prevention"  Kate Painter, Nick Tilley (1999) <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none;" href= "https://open.spotify.com/episode/5e3835EgjWPQqw14l6WKNM?si=BlA8rUYdSbartzG_238zlQ">https://open.spotify.com/episode/5e3835EgjWPQqw14l6WKNM?si=BlA8rUYdSbartzG_238zlQ</a></p>
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 20 May 2021<br>
-  by Shawn Hiew.</address> 
- 
-<!-- <p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em> -->
-<!-- <p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em>  -->
- </html>
+
+  <h4><p>Richards, N. M. (2013). THE DANGERS OF SURVEILLANCE. Harvard Law Review, 126(7), 1934–1965.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.jstor.org/stable/23415062">https://www.jstor.org/stable/23415062</a></p></h4>
+
+  <h4><p>NW, 1615 L. S., Suite 800Washington, & Inquiries, D. 20036USA202-419-4300 | M.-8.-8. | F.-4.-4. | M. (n.d.). Ideological divisions over cultural issues are far wider in the U.S. than in the UK, France and Germany. Pew Research Center.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.pewresearch.org/fact-tank/2021/05/05/ideological-divisions-over-cultural-issues-are-far-wider-in-the-u-s-than-in-the-uk-france-and-germany/">https://www.pewresearch.org/fact-tank/2021/05/05/ideological-divisions-over-cultural-issues-are-far-wider-in-the-u-s-than-in-the-uk-france-and-germany/</a></p></h4>
+
+  <h4><p>J. Liddicoat and Tech Liberty, Global Information Society Watch 2014 Association for Progressive Communications (APC) and Humanist Institute for Cooperation with Developing Countries (Hivos). (n.d.).
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://giswatch.org/sites/default/files/eyes_on_new_zealand.pdf">https://giswatch.org/sites/default/files/eyes_on_new_zealand.pdf</a></p></h4>
+
+  <h4><p>Privacy Act 2020 No 31 (as at 09 December 2020), Public Act Contents – New Zealand Legislation. (n.d.). www.legislation.govt.nz. 
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html">https://www.legislation.govt.nz/act/public/2020/0031/latest/LMS23223.html</a></p></h4>
+
+  <h4><p>Fisher, D., NZ. (n.d.). Big Read: The state of mass surveillance in NZ. ZB. 
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.newstalkzb.co.nz/news/politics/security-agencies-dismiss-simon-bridges-calls-for-more-mass-surveillance/">https://www.newstalkzb.co.nz/news/politics/security-agencies-dismiss-simon-bridges-calls-for-more-mass-surveillance/</a></p></h4>
+
+  <h4><p>Lee, A. (2020, August 9). What is China’s social credit system and why is it controversial? South China Morning Post. 
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.scmp.com/economy/china-economy/article/3096090/what-chinas-social-credit-system-and-why-it-controversial">https://www.scmp.com/economy/china-economy/article/3096090/what-chinas-social-credit-system-and-why-it-controversial</a></p></h4>
+
+  <h4><p>Auxier, B., & Rainie, L. (2019, November 15). Key takeaways on Americans’ views about privacy, surveillance and data-sharing. Pew Research Center; Pew Research Center.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://www.pewresearch.org/fact-tank/2019/11/15/key-takeaways-on-americans-views-about-privacy-surveillance-and-data-sharing/">https://www.pewresearch.org/fact-tank/2019/11/15/key-takeaways-on-americans-views-about-privacy-surveillance-and-data-sharing/</a></p></h4>
+
+  <h4><p>Over one million New Zealanders have the NZ COVID Tracer app. (n.d.). Unite against COVID-19.
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none; font-weight: normal;" href= "https://covid19.govt.nz/alert-levels-and-updates/latest-updates/over-one-million-new-zealanders-have-the-nz-covid-tracer-app/">https://covid19.govt.nz/alert-levels-and-updates/latest-updates/over-one-million-new-zealanders-have-the-nz-covid-tracer-app/</a></p></h4>
+
+
+  <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+</body>
+
+</html>

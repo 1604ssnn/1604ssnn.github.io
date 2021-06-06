@@ -1,41 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
-<head>
-  <title>Ethical Reflections Team1</title>
-   	<link rel="stylesheet" href="/styles/mystyles.css" type="text/css">
-</head>
+  <head>
+    <title>The Digital Dilemma | Ethical Reflections</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="../index.html">Home</a>
-  <li><a href="ethics.html">Ethical Reflections</a> 
-  <li><a href="process.html">Process Support</a>
-</ul>
+  <body>
+    <!-- Side Navbar -->
+    <div class="sidenav">
+      <a href="/index.html" style="font-size: 50px;">1604</a>
+      <a href="/index.html">Home</a>
+      <a href="/pages/topic.html">Topic</a>
+      <a href="/pages/opportunities.html">Opportunities</a>
+      <a href="/pages/risks.html">Risks</a>
+      <a href="/pages/choices.html">Choices</a>
+      <a href="/pages/ethics.html">Ethical<br>Reflections</a>
+      <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+        <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+        <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+        <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+        <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+        <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+        <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+        <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+      </div>
+      <a href="/pages/references.html">References</a>
+      <!-- Navbar script -->
+      <script>
+        var dropdown = document.getElementsByClassName("submenu");
+        var dropdownContent;
+        
+        for (var i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("mouseover", function() {
+            this.classList.toggle("active");
+            dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
 
-<h1>Ethical Reflections Team Member 1 [Individual Page]</h1><br>
-<p>Team name: 1604</p>
+    <!-- Main content -->
+    <h1 style="text-align: center;">Ethical Reflections Team Member 1 [Individual Page]</h1>
+    <h2 style="text-align: center;">Ethical issues relating to Government Surveillance, my personal reflections and recommendations</h2>
 
-<p><h4>Student name: Shawn Hiew</p> <p>id: 20110958 </p></h4>
+    <h3 style="text-align: left; font-weight: normal;"><b>Team name:</b> 1604</h3>
+    <h3 style="text-align: left; font-weight: normal;"><b>Student Name: </b> Shawn Hiew</h3>
+    <h3 style="text-align: left; font-weight: normal;"><b>Student ID:</b> 20110958</h3>
 
+    <p>Our topic is government surveillance, with a focus on the impacts of the programs they use (such as Five-Eyes and PRISM), and the governmental resources used to store that data. Government surveillance is essentially a combination of different techniques used to track user data, and create profiles about people and find connections between them. Methods such as tracking internet usage and digital footprint, facial recognition, location tracking and snooping on private conversations are all to-date examples of the many ways our government tracks us.</p>
 
-<h2>Ethical issues relating to the technology, your personal reflections and recommendations </h2>
+    <p>Since the dawn of the digital age, there has been a constant battle between privacy and security - is if better that the government watches everyone like an overprotective parent, in order to keep them safe, or is it better to give people control over their own digital lives, so they can share with the world what they consent. Here's where the ethics breaks down: does the idea of saving more lives give the government the moral authority to take away people's privacy? This leads us to the point of this reflection: the main ethical issue with government surveillance is that governments have yet to find the right balance between protecting the people of their nation, and upholding their right right to privacy - which shows us that currently governments can easily do whatever they want - essentially collecting our data and using it for purposes unknown to the public.</p>
 
-<h4><em>
-<p>  Government surveillance, the digital system that is used to ensure the safety and security of the population. It is a tool that is vital and is widely used in the formation of any government body, as a tool to gather information on not just potential threats within a country, but also internationally. Coining the term "Knowledge is Power" by Sir Francis Bacon (1957), having this ability to gather information and being in the know is what keeps those in power with the knowledge and power to act upon said information or even plan for future development of said country. But how far has this tool of data harvesting been taken, and how far should it be taken before it becomes another weapon that is used against us? Who decides how far is too far and what can and cannot be used against an individual?</p>
-<p>  Having a surveillance system in this day and age of modern technology is a must, as it is already integrated into how civil defense forces and police keep our society safe. There are obvious benefits to having surveillances available in most parts of a city or a country. For instance, people would feel safer knowing there are surveillance cameras in dark streets or around a gas station late at night, as it lets them know that they are being watched over and feel safer walking around town in the dark. Based on a study by Kate Painter and Nick Tilley, there has been shown a reduced number of crimes committed in areas that have surveillance cameras that are openly displayed then in areas that do not have any surveillance cameras at all. Knowing that an area is being monitored puts off criminals from acting on their plans to perform their criminal activity in said area. The same can be said on detecting and preventing terrorist attacks. Being able to gather information on almost every person, security agencies can detect and intercept messages and plans from terrorist organizations and crime rings like drug cartels, smugglers, and even human traffickers. This helps a lot in the process of putting together an operation to bring criminal groups to justice and prevent harm from reaching the populace.</p>
-<p>  Government surveillance can also be said to have saved our country, New Zealand, from the further spread Covid-19 during the initial outbreak. Having the ability to detect and follow the whereabouts of people that have been infected or who were carriers of the virus, this helped health officers detect and contain areas and people that have been in contact with the carrier and prevent further spread. This played a huge part in reducing and getting rid of the virus from the New Zealand by the year 2021 and became one of the first countries to be clean of the virus.</p>
-<p>  Although a lot of the benefits of Government surveillances can be found and stated, it also comes with a lot of negatives to many parties. For instance, having the power to spy on criminals also means that they have the power to spy on regular people too. Having the counter argument of "people should not be worried of being checked into or spied on if they have nothing bad or incriminating to hide" is flawed, even if you have not done anything wrong by definition of the law, the government gets to define what is wrong and what is not. They could do something wrong with your information and incriminate you. As said by professor Bill Buchanan(2019), "Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect. It is about choice, and having the power to control how you present yourself to the world.". No one knows how far government surveillance would be taken, how much information is need for a person to be classified as dangerous and a threat to others? Being ignorant of how your information is being harvested can be seen as dangerous and as you are allowing everything that can be known about you as a person could be used against you, and you would not have a way to defend yourself from these attacks. </p>
-<p>  It would be great if there was an alternative to government surveillance in maintaining public and national security, but this digital system has already become fully integrated in how we public order is maintained. It is hard to imagine a world where the power of having information is not being used by the government to monitor and govern over the populace. But this has put us in a situation where we feel like we have someone watching us over our shoulders and living in that situation is not living like a human anymore but livestock. Giving people, whom we do not even know personally, the power to know who and what we are and do whatever they want with it should not be a thing, as serious consequences could be seen in the far future. A future in where people live in constant fear of doing something wrong, just like a flock of sheep.</p>
-<p>  In conclusion, there are many benefits and negatives to the digital system of government surveillance, and we should be more aware of what is going on in our lives and how our personal information is being handled. We should also not let this be the only way we maintain public security and strive to find alternatives and improve.</p>
-</em></h4><br>
+    <p>From the way I see it, government surveillance is one of the greatest assets we have today - if used in the right way. As M. Richards (2013) says, we have seen government surveillance as something inherently bad, since the only examples we have seen or read about are from fictional dystopias set in the future, but the truth is that it is an already-present and looming threat to our civil liberties.</p>
 
+    <p>Society passes off government surveillance as a necessary evil, with 47% of the population believing the government surveils them (Pew Research, 2019), and therefore becoming compliant to it’s invasive practices over time. The problem is relevant to society today, (J. Liddicoat and Tech Liberty, 2014), but I feel we do not realise how bad the problem is. We can still educate ourselves and the next generation to push for policies that force our government to protect our civil liberties. The risks of government surveillance directly affect everyone in New Zealand, due to the extensive surveillance powers that the GCSB have (J. Liddicoat and Tech Liberty, 2014), to collect unnecessary amounts of data on every citizen, without their consent. We can easily see how the NZ Government creates loop holes in the law, so they can collect data, be it lawfully or unlawfully, because it says "IPPs 2, 3, and 4(b) do not apply to personal information collected by an intelligence and security agency" (Privacy Act 2020, Section 28). Upon looking into the IPP (Information Privacy Principles), you see that that 4(b) refers to obtaining information from a person in a fair way that does not intrude on their personal lives, meaning that the GCSB can unfairly get information from people in a way that is not ethical.</p>
 
+    <p>Upon further analysis, we see that government surveillance, while both useful and harmful, is to-date not fit-for-purpose. If surveillance really did what it was supposed to do, which is track down malicious activity such as terrorism (as we talked about in the oppertunities) it should have been able to identify the Christchurch Mosque shooting in 2019. (D. Fisher, 2019). The fact that our current technology is not doing what it was built for, but at the same time breaching our rights to privacy, means that both our laws and currently technology require massive reform if it truly is supposed to be in the interest of the people.</p>
 
+    <p>What we can conclude from this, is that we can see that government surveillance, while being a great asset towards protecting people, can be a tool used to harm people that did nothing wrong. Our current laws and regulations allow our agencies to not only communicate our personal data to other countries, but also capture that data without our consent.</p>
 
-		
+    <p>The first recommendation: we should stop collecting data on individuals that are not of interest - this would mean people are not being constantly watched, and would let them be more open to new or unconventional ideas, which would lead to radical social change in our society. The second recommendation I would make would be to make the surveillance programs more transparent, so people understand how and why they are being tracked. A positive outcome would be that people would regain trust in our governments and would therefore lead to a society where people do not feel threatened to express their thoughts.</p>
 
-
-
-
+    <a href="/pages/references.html" style="text-decoration: none;">[References]</a><br><br>
+    
+    <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+  </body>
 </html>

@@ -1,40 +1,72 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
-<head>
-  <title>My first styled page</title>
-  	<link rel="stylesheet" href="styles/mystyles.css">
+  <head>
+    <title>The Digital Dilemma | Home</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
   </head>
 
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="index.html">Home page</a>
-  <li><a href="pages/topic.html">Technology/Topic</a>
-	<li><a href="pages/opportunities.html">Opportunities</a>
-	<li><a href="pages/risks.html">Risks</a>
-	<li><a href="pages/choices.html">Choices</a>
-	<li><a href="pages/ethics.html">Ethical Reflections</a>
-	<li><a href="pages/references.html">References</a>
-   <li><a href="pages/process.html">Process Support</a>
-</ul>
+  <body>
+    <!-- Side Navbar -->
+    <div class="sidenav">
+      <a href="/index.html" style="font-size: 50px;">1604</a>
+      <a href="/index.html">Home</a>
+      <a href="/pages/topic.html">Topic</a>
+      <a href="/pages/opportunities.html">Opportunities</a>
+      <a href="/pages/risks.html">Risks</a>
+      <a href="/pages/choices.html">Choices</a>
+      <a href="/pages/ethics.html">Ethical<br>Reflections</a>
+      <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+        <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+        <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+        <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+        <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+        <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+        <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+        <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+      </div>
+      <a href="/pages/references.html">References</a>
+      <!-- Navbar script -->
+      <script>
+        var dropdown = document.getElementsByClassName("submenu");
+        var dropdownContent;
+        
+        for (var i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("mouseover", function() {
+            this.classList.toggle("active");
+            dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
 
-<!-- Main content -->
-<h1 style="text-align: center;">The Digital Dilemma</h1>
-<h2 style="text-align: center;">An international espionage campaign against humanity</h2>
-
-
-</ul><p>This is a test. cyka 
-It is built on a W3C site tutorial so does not claim to be flash, but now has an image, [of a paper we wrote a while back on CSED4G (Computing Education for the Social Good)]</p>
-<p>The site is not particularly well presented, but as the site uses HTML and has been styled with CSS it can be regarded as a <em>"minimum viable product"</em> for the purposes of this project&hellip;
-It has some default links, which you can take as a start for your site structure.  The <em>Process Support </em>Links provides guidance which will be needed for presenting your final project. </p>
-
-
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 1 March 2021<br>
-  by Tony Clear.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em> 
- 
-</body>
+    <!-- Main content -->
+    <h1 style="text-align: center;">The Digital Dilemma</h1>
+    <h2 style="text-align: center;">An international espionage campaign against humanity</h2>
+    
+    <p>To elaborate, this topic is specifically focussed on government surveillance of people all over the world through both proprietary digital products, and tax-payer funded surveillance programs.</p>
+    <p>We chose this topic because it is a digital system in the field of computer science we are all particularly interested in: how the digital world makes humans easier than ever to control and manipulate.</p>
+    <p>The reason why this particular topic is so important, is because we are so engrossed by the digital products we use, that we have ignored previous warnings about protecting our digital footprint, and become naive about the reality of a surveillance state.</p>
+    
+    <table style="font-size: 20px; margin-left: auto; margin-right: auto; text-align: center;">
+      <tr>
+        <td><img src="/images/the.png" style="width: 400px;"></td>
+        <td><img src="/images/digital.png" style="width: 400px;"></td>
+        <td><img src="/images/dilemma.png" style="width: 400px;"></td>
+      </tr>
+    </table>
+    
+    <br>
+    
+    <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+  </body>
 </html>

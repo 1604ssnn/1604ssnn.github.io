@@ -1,34 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
-<head>
-  <title>Ethical Reflections Team2</title>
-   	<link rel="stylesheet" href="../styles/minimal-table.css" type="text/css">
-</head>
+  <head>
+    <title>The Digital Dilemma | Ethical Reflections</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="../index.html">Home</a>
-  <li><a href="ethics.html">Ethical Reflections</a> 
-  <li><a href="process.html">Process Support</a>
-</ul>
+  <body>
+    <!-- Side Navbar -->
+    <div class="sidenav">
+      <a href="/index.html" style="font-size: 50px;">1604</a>
+      <a href="/index.html">Home</a>
+      <a href="/pages/topic.html">Topic</a>
+      <a href="/pages/opportunities.html">Opportunities</a>
+      <a href="/pages/risks.html">Risks</a>
+      <a href="/pages/choices.html">Choices</a>
+      <a href="/pages/ethics.html">Ethical<br>Reflections</a>
+      <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+        <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+        <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+        <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+        <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+        <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+        <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+        <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+      </div>
+      <a href="/pages/references.html">References</a>
+      <!-- Navbar script -->
+      <script>
+        var dropdown = document.getElementsByClassName("submenu");
+        var dropdownContent;
+        
+        for (var i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("mouseover", function() {
+            this.classList.toggle("active");
+            dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
 
-<h1>Ethical Reflections Team Member 2 [Individual Page]</h1><br>
-<p>Team name ____________________________________________________</p>
+    <!-- Main content -->
+    <h1 style="text-align: center;">Ethical Reflections Team Member 2 [Individual Page]</h1>
+    <h2 style="text-align: center;">Ethical issues relating to Government Surveillance, my personal reflections and recommendations</h2>
 
-<p><h4>Student name: ......................................., id:...................., </p></h4>
+    <h3 style="text-align: left; font-weight: normal;"><b>Team name:</b> 1604</h3>
+    <h3 style="text-align: left; font-weight: normal;"><b>Student Name: </b> Nathan Dsouza</h3>
+    <h3 style="text-align: left; font-weight: normal;"><b>Student ID:</b> 20112895</h3>
 
+    <p>The topic we chose for our group investigation is government surveillance, with a focus on the impacts of the programs they use (such as Five-Eyes and PRISM), and the governmental resources used to store that data. Government surveillance is essentially a combination of different techniques used to track user data, and create profiles about people and find connections between them. Methods such as tracking internet usage and digital footprint, facial recognition, location tracking and snooping on private conversations are all to-date examples of the many ways our government tracks us.</p>
 
-<h2>Ethical issues relating to the technology, your personal reflections and recommendations </h2>
+    <p>Since the dawn of the digital age, there has been a constant battle between privacy and security - is if better that the government watches everyone like an overprotective parent, in order to keep them safe, or is it better to give people control over their own digital lives, so they can share with the world what they consent. Here's where the ethics breaks down: does the idea of saving more lives give the government the moral authority to take away people's privacy? This leads us to the point of this reflection: the main ethical issue with government surveillance is that governments have yet to find the right balance between protecting the people of their nation, and upholding their right to privacy - which shows us that currently governments can easily do whatever they want - essentially collecting our data and using it for purposes unknown to the public.</p>
 
-<h4><em>[Note: Your individual and unique perspective on the topic/issue].</em></h4><br>
+    <p>From the way I see it, government surveillance is one of the greatest assets we have today - if used in the right way. As M. Richards (2013) says, we have seen government surveillance as something inherently bad, since the only examples we have seen or read about are from fictional dystopias set in the future, but the truth is that it is an already-present and looming threat to our civil liberties.</p>
 
+    <p>Many pass off government surveillance as a necessary evil, with 47% of the population believing the government surveils them (Pew Research, 2019), and therefore becoming extremely compliant to it's invasive practices over time. Though the problem is very relevant to society today, (J. Liddicoat and Tech Liberty, 2014), I feel we do not realise how bad the problem already is. We can still educate ourselves and the next generation to push for policies that force our government to protect our civil liberties. What makes this issue so relevant, is that the risks that follow (as we talked about before), directly affect everyone in New Zealand, due to the extensive surveillance powers that the GCSB have (J. Liddicoat and Tech Liberty, 2014), to collect unnecessary amounts of data on every citizen, without their consent. We can easily see how the NZ Government creates loop holes in the law, so they can collect data, be it lawfully or unlawfully, because it says "IPPs 2, 3, and 4(b) do not apply to personal information collected by an intelligence and security agency" (Privacy Act 2020, Section 28). Upon looking into the IPP (Information Privacy Principles), you see that that 4(b) refers to obtaining information from a person in a fair way that does not intrude on their personal lives, meaning that the GCSB can unfairly get information from people in a way that is not ethical.</p>
 
+    <p>Upon further analysis, we see that government surveillance, while both useful and harmful, is to-date not fit-for-purpose. If surveillance really did what it was supposed to do, which is track down malicious activity such as terrorism (as we talked about in the opportunities) it should have been able to identify the Christchurch Mosque shooting in 2019. (D. Fisher, 2019). The fact that our current technology is not doing what it was built for, but at the same time breaching our rights to privacy, means that both our laws and currently technology require massive reform if it truly is supposed to be in the interest of the people.</p>
 
+    <p>What we can conclude from this, is that we can see that government surveillance, while being a great asset towards protecting people, can be a tool used to harm people that did nothing wrong. Our current laws and regulations allow our agencies to not only communicate our personal data to other countries, but also capture that data without our consent.</p>
 
-		
+    <p>The first recommendation: we should stop collecting data on individuals that are not of interest - this would mean that people are not being constantly watched, and would let them be more open to new or unconventional ideas, which would lead to radical social change in our society. The second recommendation I would make would be to make the surveillance programs more transparent, so people understand how and why they are being tracked. A positive outcome would be that people would regain trust in our governments and would therefore lead to a society where people do not feel threatened to express their thoughts.</p>
+    
+    <a href="/pages/references.html" style="text-decoration: none;">[References]</a><br><br>
 
-
-
-
+    <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+  </body>
 </html>

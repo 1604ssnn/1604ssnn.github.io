@@ -1,35 +1,109 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
+
 <head>
-  <title>risks</title>
-  	<link rel="stylesheet" href="../styles/mystyles.css">
-  </head>
+  <title>The Digital Dilemma | Risks</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
 
 <body>
-<img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing"
-<!-- Site navigation menu -->
+  <!-- Side Navbar -->
+  <div class="sidenav">
+    <a href="/index.html" style="font-size: 50px;">1604</a>
+    <a href="/index.html">Home</a>
+    <a href="/pages/topic.html">Topic</a>
+    <a href="/pages/opportunities.html">Opportunities</a>
+    <a href="/pages/risks.html">Risks</a>
+    <a href="/pages/choices.html">Choices</a>
+    <a href="/pages/ethics.html">Ethical<br>Reflections</a>
 
-<ul class="navbar">
-  <li><a href="../index.html">Home page</a>
-  <li><a href="topic.html">Technology/Topic</a>
-	<li><a href="opportunities.html">Opportunities</a>
-	<li><a href="misc/risks.html">Risks</a>
-	<li><a href="choices.html">Choices</a>
-	<li><a href="ethics.html">Ethical Reflections</a>
-	<li><a href="references.html">References</a>
-   <li><a href="process.html">Process Support</a>
-</ul>
+    <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+      <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+      <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+      <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+      <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+      <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+      <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+      <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+      <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+    </div>
+    <a href="/pages/references.html">References</a>
+    
+    <!-- Navbar script -->
+    <script>
+      var dropdown = document.getElementsByClassName("submenu");
+      var dropdownContent;
 
-<!-- Main content -->
-<h1>Technology Risks</h1>
+      for (var i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("mouseover", function() {
+          this.classList.toggle("active");
+          dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </div>
 
+  <!-- Main content -->
+  <h1 style="text-align: center;">Risks</h1>
+  <h2 style="text-align: center;">The negative aspects of Government Surveillance</h2>
 
-</ul><h4><p>The page or area describing the risks posed by your chosen technology/topic.<p></h4>
+  <p>81% of the US population believe the risks of data collection far outweigh the positive aspects. (Pew Research, 2019). While there are many advantages of government surveillance that benefit our society, such as being able to track terrorists, or prevent widespread infection of a virus, we would be remiss if we failed to mention all the risks of government surveillance, that to an extent, far outweigh the benefits. As put by M. Richards (2013), there are two major risks of government surveillance that directly impact every person in society: the first is that when people know they are being watched, they tend to hold back themselves from exploring new political or social ideologies, and therefore tend to adhere to conventional ideas, rather than thinking for themselves due to the threat of being questioned for being 'different'.</p>
 
-<!-- Sign and date the page, it's only polite! -->
-<address>Made 1 March 2021<br>
-  by Tony Clear.</address>
- 
-<p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-<p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em 
- </html>
+  <p>M. Richards (2013) further tells us the second biggest risk that can arise from this, is that those surveilling could start using the data they collect to discriminate against people with ideas they do not agree with, which would drive a wedge through our society, causing people to develop a tribalistic sense of community, where society is divided based on ideology, rather than coming together as one people.</p>
+  
+  <p>We know that governments are collecting unauthorised data from people, because from classified information leaked in 2013, we see that private corporations such as Microsoft (Snowden, 2013) joined forces with the NSA in the United States, giving them backdoor access to their own products, such as Microsoft Outlook.</p>
+
+  <p>Government surveillance, through Five-Eyes and PRISM, while being a useful tools to protect society from terrorism, and other external threats that the people of any nation lack the resources to defeat, is more like a trojan horse containing the very nightmares society is trying to get away from. According to M. Richards (2013) when the public know the government is surveilling them, they conform to conventional or mainstream political and social ideologies, so as to not 'step out of line'. While public knowledge of a surveillance system such as this encourages people to be on their best behaviour as we see from A. Mitchell and L. Diamond (2018) who reports on the surveillance state in China, this is utterly dystopian, as it inherently takes away public integrity - the freedom to do the right thing.</p>
+
+  <p>Government surveillance also has a great impact on the individual. As we are told by Laura Silver, (2021), current ideological differences in the United States have already caused it to become extremely divided, and when government workers are politically attached to an ideology, using data surveillance on citizens, they can knowingly or unknowingly discriminate amongst different people based on ideology.</p>
+
+  <p>We can mitigate risks such as these by creating laws that keep every government surveillance program transparent to the public, and make sure that the data collected is only only people that are under investigation - essentially force law enforcement to require a warrant to be able to request discovery of an individual's personal data.</p>
+
+  <a href="/pages/references.html" style="text-decoration: none;">[References]</a><br><br>
+
+  <table style="font-size: 20px; margin-left: auto; margin-right: auto; text-align: center;">
+    <tr>
+      <td style="width: 60%; font-weight: bold;">Image</th>
+      <th>Description</th>
+    </tr>
+    <tr>
+      <td><img src="/images/1-PRISM-CaseNotations.jpg" style="width: 60%;"></td>
+      <td>This image shows what sort of data is collected by the PRISM program of the NSA.</td>
+    </tr>
+    <tr>
+      <td><img src="/images/2-PRISM-CollectionDataflow.jpg" style="width: 60%;"></td>
+      <td>This is a dataflow diagram of how the data gets between actual software used such as 'Nucleon' and the databases of the FBI and the CIA.</td>
+    </tr>
+    <tr>
+      <td><img src="/images/3-PRISM-CollectionDetails.jpg" style="width: 60%;"></td>
+      <td>This image shows the different companies that the data is extracted from and the types of data that is extracted. This is the data that is sent to the government.</td>
+    </tr>
+    <tr>
+      <td><img src="/images/4-PRISM-DatesBegan.jpg" style="width: 60%;"></td>
+      <td>This image shows the date that the data started being collected from each company.</td>
+    </tr>
+    <tr>
+      <td><img src="/images/5-PRISM-Dataflow.jpg" style="width: 60%;"></td>
+      <td>This image shows that the data is not just collected from the United States, but rather from all over the world.</td>
+    </tr>
+    <tr>
+      <td><img src="/images/6-PRISM-Tips.jpg" style="width: 60%;"></td>
+      <td>This image shows how the software they use was initially created to track down terrorism.</td>
+    </tr>
+  </table>
+
+  <a href="/pages/references.html" style="text-decoration: none;">[References (and image references)]</a><br><br>
+
+  <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+</body>
+
+</html>

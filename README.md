@@ -8,7 +8,7 @@ We chose this topic because it is a digital system in the field of computer scie
 
 The reason why this particular topic is so important, is because we are so engrossed by the digital products we use, that we have ignored previous warnings about protecting our digital footprint, and become naive about the reality of a surveillance state.
 
-The entire focus of our novel investigation, is to expose international government surveillance programs such as PRISM and the Five Eyes coalition, and reveal how the proprietary digital products we use daily feed massive quantities of data into these programs - we are to study and investigate these government surveillance systems and the data flow between the an individual's personal computing device and the government.
+The entire focus of our novel investigation is to expose how international government surveillance programs such as PRISM and the Five-Eyes coalition are abusing people’s rights to privacy, and reveal how those programs collect massive quantities of data for the governments.
 
 > Opportunities: Regardless of the countless negative consequences of international government surveillance, these massive programs give governments a deep understanding of human behaviour, which is a great opportunity for them to be able to pre-empt terrorist activity, trafficking, or organised crime.
 

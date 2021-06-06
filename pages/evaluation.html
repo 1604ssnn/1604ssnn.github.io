@@ -1,120 +1,68 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
-<head>
-  <title>Peer Evaluation Form</title>
-   	<link rel="stylesheet" href="../styles/minimal-table.css" type="text/css">
-</head>
+  <head>
+    <title>The Digital Dilemma | Peer Evaluations</title>
+    <link rel="stylesheet" href="/styles/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  </head>
 
-<body>
-<!-- Site navigation menu -->
-<ul class="navbar">
-  <li><a href="../index.html">Home</a>
-  <li><a href="process.html">Process Support</a>
-</ul>
-
-<h1>Peer Evaluation Form for Team Work [Private Page]</h1><br>
-<p>Team name: 1604</p>
-
-<!-- <h4>Due Date:  04/06/2021  midnight </h4><p><em>(Student to email Team Name and link to private page to your TA)</em></p>  -->
-
-
-<!-- <p>Write the name of each of your team members in a separate column. For each person,<br>
- indicate the extent to which you agree with the statement on the left, using a scale <br>
- of 1-4  -->
- <ol start =01>
- <li><em>strongly disagree
- <li>disagree
- <li>agree
- <li>strongly agree</em>
- </ol>
- 
-<p> Total the numbers in each column.
-
-
-		
-<table>
-    <p>
-	<body ><th>Evaluation Criteria</th>
-    
+  <body>
+    <!-- Side Navbar -->
+    <div class="sidenav">
+      <a href="/index.html" style="font-size: 50px;">1604</a>
+      <a href="/index.html">Home</a>
+      <a href="/pages/topic.html">Topic</a>
+      <a href="/pages/opportunities.html">Opportunities</a>
+      <a href="/pages/risks.html">Risks</a>
+      <a href="/pages/choices.html">Choices</a>
+      <a href="/pages/ethics.html">Ethical<br>Reflections</a>
+      <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+      <div class="dropdown-container">
+        <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+        <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+        <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+        <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+        <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+        <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+        <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+        <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+      </div>
+      <a href="/pages/references.html">References</a>
+      <!-- Navbar script -->
+      <script>
+        var dropdown = document.getElementsByClassName("submenu");
+        var dropdownContent;
         
-        <th scope="col" class="Team member 1">Team member:<em>Shawn Hiew 20110958</em></th> 
-	    <th scope="col" class="Team member 1">Team member:<em>Nathan Dsouza 20112895</em></th> 
-        <th scope="col" class="Team member 1">Team member:<em>Jamie Barry 19079418</em></th> 
-		
-    </tr>
+        for (var i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("mouseover", function() {
+            this.classList.toggle("active");
+            dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+              dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+          });
+        }
+      </script>
+    </div>
+
+    <!-- Main content -->
+    <h1 style="text-align: center;">Project Process Support</h1>
+    <h2 style="text-align: center;">Peer Evaluations</h2>
+
+    <h4 style="font-weight: normal;"><p><b>Team name:</b> 1604</p></h4>
+
 	<hr />
-	</p>
-	<!-- <p align = "left"</p>
-		<th scope="row"></th>
-		<td>4</td>
-		<td>4</td>
-        <td>4</td>
 
-   </tr>
-	<p align = "left"</p>
-		<th scope="row"></th>
-		<td>4</td>
-		<td>4</td>
-        <td>4</td> -->
+    <h2>Privately submitted on Blackboard by each Team Member</h2>
+	
+	<a style="text-decoration: none;" href="/pages/process.html">&#129144; Back to Project Process Support Home</a>
 
-   </tr>
-		<p align = "left"</p>
-		<th scope="row">Attends team meetings regularly and arrives on time.</th>
-		<td>4</td>
-		<td>4</td>
-        <td>4</td>
-
-   </tr>
-	<p align = "left"</p>
-	<th scope="row">Contributes meaningfully to team discussions.</th>
-        <td>4</td>
-		<td>4</td>
-        <td>4</td>
- 
-    </tr>
-	<th scope="row">Completes team assignments on time.</th>
-        <td>4</td>
-		<td>4</td>
-        <td>4</td>
-  
-    </tr>
-	<th scope="row">Prepares work in a quality manner.</th>
-        <td>4</td>
-		<td>4</td>
-        <td>4</td>
-     
-    </tr>
-	<th scope="row">Demonstrates a cooperative and supportive attitude.</th>
-        <td>4</td>
-		<td>4</td>
-        <td>4</td>
-        
-    </tr>
-	<th scope="row">Contributes significantly to the success of the project.</th>
-        <td>4</td>
-		<td>4</td>
-        <td>4</td>
-        
-    </tr>
-	<th scope="row">Overall Contribution.</th>
-        <td>4</td>
-		<td>4</td>
-        <td>4</td>
-        		
-   </tr>
-   		
-   </tr><th scope="row">Team Member Total.</th>
-        
-		<td>28/28</td>
-		<td>28/28</td>
-        <td>28/28</td>
-        		
-   </tr>
-</table>
-
-<p><h4>Student name: ......................................., id:...................., Signature: ...............................</p></h4>
-<hr/>
-<p><h6><em>Note: the simplest option will be to fill in the sheet, copy and email it to your TA when completed.</p></h6></em> 
- <p><h6><em>As this is a static site without security features, it is not automated at this stage.[But usefully shows the limits of technology too]</p></h6></em>
-</body>
+	<br><br>
+    
+    <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+  </body>
 </html>

@@ -1,57 +1,78 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<!DOCTYPE html>
+
 <html>
-  <head>
-    <title>Topic</title>
-    <link rel="stylesheet" href="../styles/mystyles.css">
-  </head>
 
-  <style>
-    .research {
-      color: red;
-    }
-    .paraphrase {
-      color: black;
-    }
-  </style>
+<head>
+  <title>The Digital Dilemma | Topic</title>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
 
-  <body>
-    <img src="../images/csg4ed-small.png" alt="Enhancing Social Good in Computing">
-    <!-- Site navigation menu -->
+<body>
+  <!-- Side Navbar -->
+  <div class="sidenav">
+    <a href="/index.html" style="font-size: 50px;">1604</a>
+    <a href="/index.html">Home</a>
+    <a href="/pages/topic.html">Topic</a>
+    <a href="/pages/opportunities.html">Opportunities</a>
+    <a href="/pages/risks.html">Risks</a>
+    <a href="/pages/choices.html">Choices</a>
+    <a href="/pages/ethics.html">Ethical<br>Reflections</a>
 
-    <ul class="navbar">
-      <li><a href="../index.html">Home page</a>
-      <li><a href="topic.html">Technology/Topic</a>
-      <li><a href="opportunities.html">Opportunities</a>
-      <li><a href="risks.html">Risks</a>
-      <li><a href="choices.html">Choices</a>
-      <li><a href="ethics.html">Ethical Reflections</a>
-      <li><a href="references.html">References</a>
-      <li><a href="process.html">Process Support</a>
-    </ul>
-
-    <!-- Main content -->
-    <h1>Chosen Technology/Topic</h1>
+    <button class="submenu">Process Support<i class="fa fa-caret-down"></i></button>
+    <div class="dropdown-container">
+      <a href="/pages/process.html" style="font-size: 15px;">Process Support Home</a>
+      <a href="/pages/team-formation.html" style="font-size: 15px;">Team Formation</a>
+      <a href="/pages/proposal.html" style="font-size: 15px;">Team Proposal</a>
+      <a href="/pages/evaluation.html" style="font-size: 15px;">Peer Evaluation</a>
+      <a href="/pages/meetings.html" style="font-size: 15px;">Meeting Minutes</a>
+      <a href="/pages/portfolio.html" style="font-size: 15px;">Project Portfolio</a>
+      <!-- <a href="rubric.html" style="font-size: 15px;">Assessment Rubric</a> -->
+      <a href="/pages/guidelines.html" style="font-size: 15px;">Guideline Conformance</a>
+    </div>
+    <a href="/pages/references.html">References</a>
     
-    <h2>Research</h2>
-    <p class="research">The 'Five Eyes' will remain the most powerful espionage alliance
-      Like relaxed work colleagues casually sharing the tricks of the trade, American and British intelligence officers tracking a Pakistani terrorist group chatted online about the tools used to read intercepted documents.
-      “I don’t normally use Heretic to scan the fax traffic, I use Nucleon," said one officer. Another gave up trying to decipher a set of messages from Lashkar-e-Taiba. “Most of it is in Arabic or Farsi, so I can’t make out much of it,” he told an internal message group.
-      The chatroom contents, first published in The New York Times, were contained in the flood of documents leaked by Edward Snowden, the former US intelligence contractor-turned-whistleblower now in exile in Russia.
-      The leaks have infuriated the US and its intelligence allies for good reason. On top of detailing sensitive spy operations, Mr Snowden has exposed the world’s most powerful and enduring intelligence alliance, the “Five Eyes”, binding together the US, UK, Canada, Australia and New Zealand.
-    </p>
-    <p class="paraphrase">
-      The Five Eyes alliance is literally the world's most powerful surveillance agency. While they were created to thwart terrorist plans, and keep the public safe, it has become the vehicle for unwarranted mass surveillance on the public. Leaked emails between officials of the alliance expose to us the threatening nature of these programs and how though they were initially created to keep the public safe from terrorism and threats of national security, 
-    </p>
+    <!-- Navbar script -->
+    <script>
+      var dropdown = document.getElementsByClassName("submenu");
+      var dropdownContent;
 
+      for (var i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("mouseover", function() {
+          this.classList.toggle("active");
+          dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </div>
 
-    <!-- </ul><h5><p>The page or area describing your chosen technology/topic and why it is significant and/or has important implications for society.<p></h5> -->
+  <!-- Main content -->
+  <h1 style="text-align: center;">Chosen Technology / Topic</h1>
+  <h2 style="text-align: center;">Government Surveillance</h2>
 
-    <!-- Sign and date the page, it's only polite! -->
-    <!-- <address>Made 1 March 2021<br>
-      by Tony Clear.</address> -->
+  <p>The entire focus of our novel investigation is to expose how international government surveillance programs such as PRISM and the Five-Eyes coalition are abusing people's rights to privacy, and reveal how those programs collect massive quantities of data for the governments.</p>
+
+  <p><b>Opportunities:</b> Regardless of the countless negative consequences of international government surveillance, these massive programs give governments a deep understanding of human behaviour, which is a great opportunity for them to be able to pre-empt terrorist activity, trafficking, or organised crime.</p>
+
+  <p><b>Risks:</b> This ignites the risk of surveilling innocent people that have done nothing wrong to warrant the government snooping on their private lives. Another risk of this surveillance is that when people find out their lives are being scrutinised, they could start working to undermine their own government, which comes with its own set of consequences.</p>
     
-    <!-- <p><em>thanks to W3C for tutorial and adapted code from <a href="https://www.w3.org/Style/Examples/011/firstcss.en.html">Style Examples</a></p></em>
-    <p><em>also thanks to WDN for HTML and CSS resources and any adapted code snippets from <a href= "https://developer.mozilla.org/en-US/docs/Web">Mozilla Developer Network</a></p></em  -->
-    
-  </body>
+  <p><b>Choices:</b> People these days choose to use proprietary technology, and simply accept the terms and conditions without actually understanding what they mean. The reason why we choose to do this, is due to convenience, and from our perspective, we see that convenience is one of the main reasons we allow ourselves to be surveilled, rather than keeping anonymous and having a difficult time browsing the internet.</p>
+
+  <table style="font-size: 20px; margin-left: auto; margin-right: auto; text-align: center;">
+    <tr>
+      <td></td>
+      <td><img src="/images/chosen-topic/Slide1.PNG" style="width: 100%;"></td>
+      <td></td>
+    </tr>
+  </table><br>
+
+  <address style="font-size: 15px;">Presented to you by Team 1604:<br>Shawn Hiew, Jamie Barry, and Nathan Dsouza</address>
+</body>
+
 </html>
